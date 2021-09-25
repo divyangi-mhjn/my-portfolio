@@ -20,7 +20,10 @@ class Main extends React.Component {
       <div
         ref={this.props.setWrapperRef}
         id="main"
-        style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
+        style={this.props.timeout ? { display: 'flex',flexDirection: 'column',alignItems: 'center',justifyContent: 'space-between',
+        position: 'relative',minHeight: '100vh',width: '100%',padding: '4rem 2rem', 'z-index': '3'}
+        : { display: 'none' }}
+       
       >
         <article
           id="intro"
@@ -28,14 +31,16 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
+          <div>
           <h2 className="major">Introduction</h2>
-          <span >
-            <img src={pic01} alt="" height="250"  width="400" style={{ borderRadius: '50%', display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/>
+          <span className="image main">
+            {/* <img src={pic01} alt="" height="250"  width="400" style={{ borderRadius: '50%', display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/> */}
+            <img src={pic01} alt="" />
           </span>
 
           <p>
             Hey there!
-            <br /> I’m a Tech-savvy developer with 3+ years of experience
+           </p><p> I’m a Tech-savvy developer with 3+ years of experience
             for collaborating and working on multiple web-based projects. Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
           </p>
           <p>I am Passionate for web development. My best assets are my creativity, my feeling with technology and my passion.</p>
@@ -47,6 +52,7 @@ class Main extends React.Component {
 
 
           {close}
+          </div>
         </article>
 
         <article
@@ -56,7 +62,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work Experience</h2>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}>
+          
+          <div className="image-main" style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}>
             {/* <div></div> */}
             <div style={{ marginTop: '30px', height: '35px', width: '35px', backgroundColor: '#bbb', borderRadius: '50%', display: 'inline-block' }}>
             </div>
@@ -92,7 +99,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills Summary</h2>
-          <Skills />
+         <div className="image-main"> <Skills /></div>
           {close}
         </article>
 
@@ -103,7 +110,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          {<Email />}
+          <div className="image-main"><Email /></div>
           {close}
         </article>
 

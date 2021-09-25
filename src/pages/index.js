@@ -83,11 +83,11 @@ class IndexPage extends React.Component {
   }
 
   handleClickOutside(event) {
-    // if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-    //   if (this.state.isArticleVisible) {
-    //     this.handleCloseArticle();
-    //   }
-    // }
+    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+      if (this.state.isArticleVisible) {
+        this.handleCloseArticle();
+      }
+    }
   }
 
   render() {
