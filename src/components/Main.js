@@ -33,8 +33,8 @@ class Main extends React.Component {
          <div >
      
           <h2 className="major">Introduction</h2>
-          <span className="image main">
-            <img src={pic01} alt="" height="250"  width="400" style={{  display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/>
+          <span className="image-main">
+            <img src={pic01} alt="" height="25%"  width="40%" style={{  display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/>
             {/* <img src={pic01} alt="" /> */}
           </span>
 
