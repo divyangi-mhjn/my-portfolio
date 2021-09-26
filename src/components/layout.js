@@ -17,7 +17,7 @@ const Layout = ({ children, location }) => {
     )
   } else {
     content = (
-      <div id="wrapper" className="page">
+      <div id="wrapper" className="page" >
         <div>
           {children}
         </div>
@@ -43,6 +43,7 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
+              {name : "viewport", content:"width=device-width, initial-scale=1.0,minimum-scale=0.5,maximum-scale=3.0"},
             ]}
           >
             <html lang="en" />

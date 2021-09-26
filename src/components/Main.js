@@ -1,9 +1,8 @@
-import PropTypes from 'prop-types'
-import React from 'react'
-import pic01 from '../images/my-img.jpg'
-import {Email} from './Email.js'
-import {Skills} from './Skills.js'
-
+import PropTypes from 'prop-types';
+import React from 'react';
+import pic01 from '../images/my-img.jpg';
+import {Email} from './Email.js';
+import {Skills} from './Skills.js';
 
 class Main extends React.Component {
   render() {
@@ -17,11 +16,11 @@ class Main extends React.Component {
     )
 
     return (
+     
       <div
         ref={this.props.setWrapperRef}
         id="main"
-        style={this.props.timeout ? { display: 'flex',flexDirection: 'column',alignItems: 'center',justifyContent: 'space-between',
-        position: 'relative',minHeight: '100vh',width: '100%',padding: '4rem 2rem', 'z-index': '3'}
+        style={this.props.timeout ? { display: 'flex'}
         : { display: 'none' }}
        
       >
@@ -31,11 +30,12 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <div>
+         <div >
+     
           <h2 className="major">Introduction</h2>
           <span className="image main">
-            {/* <img src={pic01} alt="" height="250"  width="400" style={{ borderRadius: '50%', display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/> */}
-            <img src={pic01} alt="" />
+            <img src={pic01} alt="" height="250"  width="400" style={{  display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/>
+            {/* <img src={pic01} alt="" /> */}
           </span>
 
           <p>
@@ -116,6 +116,7 @@ class Main extends React.Component {
 
        
       </div>
+      
     )
   }
 }

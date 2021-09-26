@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { SkillBars } from 'react-skills';
 export const Skills = () => {
 

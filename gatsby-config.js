@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     title: 'Divyangi Mahajan',
     author: 'Divyangi Mahajan',
-    description: 'Portfolio for Divyangi Mahajan',
+    description: 'Portfolio for Divyangi Mahajan'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -16,9 +16,9 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/initials1.png', // This path is relative to the root of the site.
+        icon: 'src/images/base-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
+    'gatsby-plugin-sass'
   ],
 }

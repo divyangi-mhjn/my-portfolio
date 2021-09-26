@@ -22,7 +22,7 @@ export const Email = () => {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail} afterSubmit>
+    <form ref={form} onSubmit={sendEmail} >
        <div className="field half first">
               <label htmlFor="user_name">Name</label>
       <input type="text" name="user_name" />
