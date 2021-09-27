@@ -81,18 +81,18 @@ class IndexPage extends React.Component {
   }
 
   handleClickOutside(event) {
-    if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-      if (this.state.isArticleVisible) {
-        this.handleCloseArticle();
-      }
-    }
+    // if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
+    //   if (this.state.isArticleVisible) {
+    //     this.handleCloseArticle();
+    //   }
+    // }
   }
 
   render() {
     return (
       <Layout location={this.props.location}>
-        <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`}>
-          <div id="wrapper" style={{display: 'flex',width:'90%',position:'relative',margin:'0 auto'}}>
+        <div className={`body ${this.state.loading} ${this.state.isArticleVisible ? 'is-article-visible' : ''}`} >
+          <div id="wrapper" style={{display: 'flex',width:'100%',position:'relative',margin:'0px' }}>
             <Header onOpenArticle={this.handleOpenArticle} timeout={this.state.timeout} />
             <Main
               isArticleVisible={this.state.isArticleVisible}

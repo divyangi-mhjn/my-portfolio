@@ -54,7 +54,7 @@
         'filter #{_duration(article)} ease-in-out'
       )
     );
-    background-image: url('../../images/bg.jpg');
+    background-image: url('../../images/bg2.jpg');
     // background-color: rgb(5, 5, 51);
     background-position: center;
     background-size: cover;
@@ -64,7 +64,7 @@
 
   .body.is-article-visible & {
     &:after {
-      @include vendor('transform', 'scale(1.0825)');
+      @include vendor('transform', 'scale(1.287)');
       // @include vendor('filter', 'blur(0.2rem)');
     }
   }

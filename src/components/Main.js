@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import pic01 from '../images/my-img.jpg';
-import {Email} from './Email.js';
-import {Skills} from './Skills.js';
+import { Email } from './Email.js';
+import { Skills } from './Skills.js';
 
 class Main extends React.Component {
   render() {
@@ -16,13 +16,13 @@ class Main extends React.Component {
     )
 
     return (
-     
+
       <div
         ref={this.props.setWrapperRef}
         id="main"
-        style={this.props.timeout ? { display: 'flex'}
-        : { display: 'none' }}
-       
+        style={this.props.timeout ? { display: 'flex',width: '100vw',height: '100vh'}
+          : { display: 'none' }}
+
       >
         <article
           id="intro"
@@ -30,28 +30,27 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-         <div >
-     
-          <h2 className="major">Introduction</h2>
-          <span className="image-main">
-            <img src={pic01} alt="" height="25%"  width="40%" style={{  display: 'block', marginLeft: 'auto',  marginRight: 'auto',  width: '50%'}}/>
-            {/* <img src={pic01} alt="" /> */}
-          </span>
+          <div >
 
-          <p>
-            Hey there!
-           </p><p> I’m a Tech-savvy developer with 3+ years of experience
-            for collaborating and working on multiple web-based projects. Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
-          </p>
-          <p>I am Passionate for web development. My best assets are my creativity, my feeling with technology and my passion.</p>
+            <h2 className="major">Introduction</h2>
+            <span className="image-main">
+              <img src={pic01} alt="" height="25%" width="40%" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '50%' }} />
+            </span>
 
-          <p>I completed my Bachelor's in Computer asciences from Kurukshetra university with an honour's degree
-            in 2018.
-            I worked for Skill Lotto Solutions from Jun 2018-Feb 2019 as an Application Developer and currently I am working with Tata Consultancy Services and an Application Developer since March 2019.
-          </p>
+            <p>
+              Hey There!
+            </p><p> I’m a Tech-savvy developer with 3+ years of experience
+              for collaborating and working on multiple web-based projects. Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
+            </p>
+            <p>I am Passionate for web development. My best assets are my creativity, my feeling with technology and my passion.</p>
+
+            <p>I completed my Bachelor's of technology in Computer Sciences from Kurukshetra university with an honour's degree
+              in 2018.
+              I worked for Skill Lotto Solutions from Jun 2018-Feb 2019 as an Application Developer and currently I am working with Tata Consultancy Services and an Application Developer since March 2019.
+            </p>
 
 
-          {close}
+            {close}
           </div>
         </article>
 
@@ -62,30 +61,30 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work Experience</h2>
-          
-          <div className="image-main" style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}>
-            {/* <div></div> */}
-            <div style={{ marginTop: '30px', height: '35px', width: '35px', backgroundColor: '#bbb', borderRadius: '50%', display: 'inline-block' }}>
-            </div>
-            <div style={{paddingTop :'20px'}}> <h5 className="text-sm font-normal mb-1">Tata Consultancy Services</h5>
 
-              <span className="text-sm font-medium opacity-50" >Application Developer Since March-2019</span>
+          <div className="image-main" style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
+
+            <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">Tata Consultancy Services</h3>
+
+              <span className="text-sm font-medium opacity-50" >Application Developer </span>
 
             </div>
-          </div><br />
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}>
-            
-            <div style={{ borderLeft: '3px solid #bbb', height: '40px', marginLeft: '15px' }}></div>
-            <div></div>
+
+            <div style={{ paddingTop: '20px' }}>
+
+              <h3 className="text-lg font-large mb-1">Mar 2019 - Present</h3>
+
+            </div>
           </div>
-          <br />
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 3fr' }}>
-            {/* <div></div> */}
-            <div style={{ height: '35px', width: '35px', backgroundColor: '#bbb', borderRadius: '50%', display: 'inline-block' }}>
-            </div>
-            <div> <h5 className="text-sm font-normal mb-1">Skill Lotto Solutions</h5>
+          <hr />
 
-              <span className="text-sm font-medium opacity-50">Application Developer From Jun 2018- Feb 2019</span>
+          <div style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
+
+            <div> <h3 className="text-sm font-normal mb-1">Skill Lotto Solutions</h3>
+
+              <span className="text-sm font-medium opacity-50">Application Developer</span>
+            </div>
+            <div> <h3 className="text-sm font-normal mb-1">Jun 2018 - Feb 2019</h3>
             </div>
           </div>
 
@@ -99,7 +98,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Skills Summary</h2>
-         <div className="image-main"> <Skills /></div>
+          <div className="image-main"> <Skills /></div>
           {close}
         </article>
 
@@ -114,9 +113,9 @@ class Main extends React.Component {
           {close}
         </article>
 
-       
+
       </div>
-      
+
     )
   }
 }
