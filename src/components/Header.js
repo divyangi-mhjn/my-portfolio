@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import myimg from "../images/initials1.png"
+import downloadFile from '../assets/document/divyangi-mahajan.pdf' 
 
 
 const Header = props => (
@@ -78,13 +79,10 @@ const Header = props => (
           </button>
         </li>
         <li>
-          <button
-            onClick={(data) => {
-              window.open(require('../../public/document/divyangi_mahajan.pdf'), '_none')
-            }}
-          >
-            Download
-          </button>
+         
+            <a href={downloadFile} download> <button>Download
+          </button></a>
+            
          </li>
       </ul>
     </nav>
