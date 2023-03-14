@@ -74,6 +74,7 @@ class Main extends React.Component {
 
             </div>
           </div>
+          <hr />
 
           <div className="image-main" style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
 
