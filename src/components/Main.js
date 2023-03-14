@@ -20,7 +20,7 @@ class Main extends React.Component {
       <div
         ref={this.props.setWrapperRef}
         id="main"
-        style={this.props.timeout ? { display: 'flex',width: '100vw',height: '100vh'}
+        style={this.props.timeout ? { display: 'flex', width: '100vw', height: '100vh' }
           : { display: 'none' }}
 
       >
@@ -39,14 +39,13 @@ class Main extends React.Component {
 
             <p>
               Hey There!
-            </p><p> I’m a Tech-savvy developer with 3+ years of experience
+            </p><p> I’m a Tech-savvy developer with 5 years of experience
               for collaborating and working on multiple web-based projects. Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
             </p>
             <p>I am Passionate for web development. My best assets are my creativity, my feeling with technology and my passion.</p>
 
             <p>I completed my Bachelor's of technology in Computer Sciences from Kurukshetra university with an honour's degree
               in 2018.
-              I worked for Skill Lotto Solutions from Jun 2018-Feb 2019 as an Application Developer and currently I am working with Tata Consultancy Services and an Application Developer since March 2019.
             </p>
 
 
@@ -60,19 +59,34 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
+
           <h2 className="major">Work Experience</h2>
 
           <div className="image-main" style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
+            <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">LTIMindtree</h3>
+
+              <span className="text-sm font-medium opacity-50" >Senior Software Engineer</span>
+
+            </div>
+            <div style={{ paddingTop: '20px' }}>
+
+              <h3 className="text-lg font-large mb-1">Feb 2022 - Present</h3>
+
+            </div>
+          </div>
+
+          <div className="image-main" style={{ display: 'grid', gridTemplateColumns: '3fr 1fr' }}>
+
 
             <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">Tata Consultancy Services</h3>
 
-              <span className="text-sm font-medium opacity-50" >Application Developer </span>
+              <span className="text-sm font-medium opacity-50" >System Engineer</span>
 
             </div>
 
             <div style={{ paddingTop: '20px' }}>
 
-              <h3 className="text-lg font-large mb-1">Mar 2019 - Present</h3>
+              <h3 className="text-lg font-large mb-1">Mar 2019 - Feb 2022</h3>
 
             </div>
           </div>
@@ -82,7 +96,7 @@ class Main extends React.Component {
 
             <div> <h3 className="text-sm font-normal mb-1">Skill Lotto Solutions</h3>
 
-              <span className="text-sm font-medium opacity-50">Application Developer</span>
+              <span className="text-sm font-medium opacity-50">Software Developer</span>
             </div>
             <div> <h3 className="text-sm font-normal mb-1">Jun 2018 - Feb 2019</h3>
             </div>
