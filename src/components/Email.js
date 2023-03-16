@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import PropTypes from 'prop-types'
 import emailjs from 'emailjs-com';
 
 export const Email = () => {
@@ -10,7 +9,7 @@ export const Email = () => {
 
     emailjs.sendForm('service_mhf2z39', 'template_tohe38n', form.current, 'user_na2bAwclyQehOJE8KCIhP')
       .then((result) => {
-          if(result.text == 'OK'){
+          if(result.text === 'OK'){
            form.current.reset();
               alert("Email sent successfully")
             

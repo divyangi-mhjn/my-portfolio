@@ -19,22 +19,16 @@ const Header = props => (
            
            
             <li>
-              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="icon fa-linkedin">
-                <span className="label">Instagram</span>
-              </a>
+              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="fa fa-linkedin" />
             </li>
             <li>
               <a
                 href="https://www.github.com/divyangi-mhjn"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
+                className="fa fa-github"
+              />
             </li>
             <li>
-              <a href="https://www.facebook.com/divyangi.mahajan" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
+              <a href="https://www.facebook.com/divyangi.mahajan" className="fa fa-facebook" />
             </li>
           </ul>
          
