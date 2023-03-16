@@ -6,6 +6,7 @@
   "main": "index.js",
   "homepage": "http://divyangi-mhjn.github.io/my-portfolio",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "emailjs-com": "^3.2.0",
     "gatsby": "^4.3.0",
     "gatsby-plugin-manifest": "^4.3.0",
