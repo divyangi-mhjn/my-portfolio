@@ -19,7 +19,7 @@ const Header = props => (
            
            
             <li>
-              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="fa fa-linkedin" />
+              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="icon fa-linkedin" />
             </li>
             <li>
               <a

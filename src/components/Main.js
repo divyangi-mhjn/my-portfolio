@@ -39,7 +39,7 @@ class Main extends React.Component {
 
             <p>
               Hey There!
-            </p><p> I’m a Tech-savvy developer with 5 years of experience
+            </p><p> I’m a Tech-savvy developer with 6.5 years of experience
               for collaborating and working on multiple web-based projects. Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
             </p>
             <p>I am Passionate for web development. My best assets are my creativity, my feeling with technology and my passion.</p>
