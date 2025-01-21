@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import myimg from "../images/initials1.png"
-import downloadFile from '../assets/document/divyangi-mahajan.pdf' 
-
+import downloadFile from '../assets/document/divyangi-mahajan.pdf'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -13,25 +14,25 @@ const Header = props => (
       <div className="inner">
         <h1>Divyangi Mahajan</h1>
         <p>
-          A full stack developer and Devops Engineer 
+          A full stack developer and Devops Engineer
         </p>
+
         <ul className="icons">
-           
-           
-            <li>
-              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="fab fa fa-linkedin" />
-            </li>
-            <li>
-              <a
-                href="https://www.github.com/divyangi-mhjn"
-                className="fab fa fa-github"
-              />
-            </li>
-            <li>
-              <a href="https://www.facebook.com/divyangi.mahajan" className="fab fa fa-facebook" />
-            </li>
-          </ul>
-         
+
+
+          <li>
+
+            <a href="https://www.linkedin.com/in/divyangi-mahajan"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.github.com/divyangi-mhjn" ><FontAwesomeIcon icon={faGithub} /></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/divyangi.mahajan"> <FontAwesomeIcon icon={faFacebookF} /></a>
+          </li>
+        </ul>
+
       </div>
     </div>
     <nav>
@@ -73,15 +74,15 @@ const Header = props => (
           </button>
         </li>
         <li>
-         
-            <a href={downloadFile} download> <button>Download
+
+          <a href={downloadFile} download> <button>Download
           </button></a>
-            
-         </li>
+
+        </li>
       </ul>
     </nav>
   </header>
-  
+
 )
 
 Header.propTypes = {
