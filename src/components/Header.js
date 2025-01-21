@@ -7,9 +7,6 @@ import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-sv
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span><img className="logo" src={myimg} alt="DM" width="60" height="90" /></span>
-    </div>
     <div className="content">
       <div className="inner">
         <h1>Divyangi Mahajan</h1>
