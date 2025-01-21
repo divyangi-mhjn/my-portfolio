@@ -19,16 +19,16 @@ const Header = props => (
            
            
             <li>
-              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="icon fa-linkedin" />
+              <a href="https://www.linkedin.com/in/divyangi-mahajan" className="fab fa fa-linkedin" />
             </li>
             <li>
               <a
                 href="https://www.github.com/divyangi-mhjn"
-                className="icon fa-github"
+                className="fab fa fa-github"
               />
             </li>
             <li>
-              <a href="https://www.facebook.com/divyangi.mahajan" className="icon fa-facebook" />
+              <a href="https://www.facebook.com/divyangi.mahajan" className="fab fa fa-facebook" />
             </li>
           </ul>
          
