@@ -13,12 +13,8 @@ const Header = props => (
         <p>
           A full stack developer and Devops Engineer
         </p>
-
         <ul className="icons">
-
-
           <li>
-
             <a href="https://www.linkedin.com/in/divyangi-mahajan"><FontAwesomeIcon icon={faLinkedinIn} /></a>
           </li>
           <li>
