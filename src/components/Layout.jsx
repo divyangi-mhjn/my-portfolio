@@ -43,7 +43,7 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'description', content: 'The portfolio for Divyangi Mahajan' },
               { name: 'keywords', content: 'Divyangi, Mahajan, Portfolio' },
-              {name : "viewport", content:"width=device-width, initial-scale=1.0,minimum-scale=0.5,maximum-scale=3.0"},
+              {name : "viewport", content:"width=device-width,height=device-height,initial-scale=1.0,minimum-scale=0.5,maximum-scale=3.0"},
             ]}
           >
             <html lang="en" />
