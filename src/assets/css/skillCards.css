@@ -1,0 +1,23 @@
+.skillContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%
+}
+
+.skillCard {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(248, 245, 244, .05);
+    /* border: 1px solid grey; */
+    width: 100px;
+    padding: 10px 10px 5px;
+    margin: 5px 0;
+    border-radius: 8px;
+}
+
+.techContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

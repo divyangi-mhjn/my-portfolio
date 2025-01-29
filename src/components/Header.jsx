@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import myimg from "../images/initials1.png"
 import downloadFile from '../assets/document/divyangi-mahajan.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
@@ -11,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>Divyangi Mahajan</h1>
         <p>
-          A full stack developer and Devops Engineer
+          Elevating user Experiences
         </p>
         <ul className="icons">
           <li>

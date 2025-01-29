@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Main from '../components/Main'
 import Footer from '../components/Footer'
@@ -17,7 +17,6 @@ class IndexPage extends React.Component {
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
-    this.handleClickOutside = this.handleClickOutside.bind(this);
   }
 
   componentDidMount () {
@@ -78,14 +77,6 @@ class IndexPage extends React.Component {
       })
     }, 350)
 
-  }
-
-  handleClickOutside(event) {
-    // if (this.wrapperRef && !this.wrapperRef.contains(event.target)) {
-    //   if (this.state.isArticleVisible) {
-    //     this.handleCloseArticle();
-    //   }
-    // }
   }
 
   render() {

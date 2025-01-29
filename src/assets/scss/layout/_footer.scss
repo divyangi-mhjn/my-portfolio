@@ -28,6 +28,13 @@
     text-transform: uppercase;
   }
 
+  .taglineFooter {
+      text-transform: uppercase;
+      letter-spacing: _font(letter-spacing);
+      font-size: 0.8rem;
+      line-height: 2px
+  }
+
   .body.is-article-visible & {
     @include vendor('transform', 'scale(0.95)');
     // @include vendor('filter', 'blur(0.1rem)');
