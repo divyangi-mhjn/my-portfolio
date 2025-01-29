@@ -48,7 +48,7 @@ class Main extends React.Component {
         <article
           id="skills"
           className={`${this.props.article === 'skills' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }} >
-          <h2 className="major">Skills Summary</h2>
+          <h2 className="major">Skills</h2>
             <Skills />
           {close}
         </article>
@@ -59,7 +59,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contact Me</h2>
           <div className="tab-container"><Email /></div>
           {close}
         </article>

@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import downloadFile from '../assets/document/divyangi-mahajan.pdf'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { FaGithub, FaLinkedinIn, FaFacebookF} from 'react-icons/fa';
+
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -14,14 +14,14 @@ const Header = props => (
         </p>
         <ul className="icons">
           <li>
-            <a href="https://www.linkedin.com/in/divyangi-mahajan"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+            <a href="https://www.linkedin.com/in/divyangi-mahajan"><FaLinkedinIn size= {17} style={{verticalAlign: 'sub'}} /></a>            
           </li>
           <li>
             <a
-              href="https://www.github.com/divyangi-mhjn" ><FontAwesomeIcon icon={faGithub} /></a>
+              href="https://www.github.com/divyangi-mhjn" ><FaGithub size= {17} style={{verticalAlign: 'sub'}} /></a>
           </li>
           <li>
-            <a href="https://www.facebook.com/divyangi.mahajan"> <FontAwesomeIcon icon={faFacebookF} /></a>
+            <a href="https://www.facebook.com/divyangi.mahajan"> <FaFacebookF size= {17} style={{verticalAlign: 'sub'}} /></a>
           </li>
         </ul>
 

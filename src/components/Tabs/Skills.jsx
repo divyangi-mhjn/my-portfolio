@@ -1,109 +1,115 @@
 import React from 'react';
 import '../../assets/css/skillCards.css';
-import { faReact , faJs, faHtml5, faCss} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub, FaBitbucket, FaFigma } from 'react-icons/fa';
+import { SiTypescript, SiRedux, SiScala, SiCypress, SiExpress, SiJira, SiContentful, SiPostman, SiIntellijidea, SiFirebase, SiJest } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
+import { LiaGit } from "react-icons/lia";
+import { GrOracle,GrHeroku } from "react-icons/gr";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { VscVscode } from "react-icons/vsc";
 
 export const Skills = () => {
 
   const skillsData = [
     {
       title: 'React JS',
-      icon: faReact
+      icon: <FaReact />
     },
     {
       title: 'Javascript',
-      icon: faJs
+      icon: <FaJs />
     },
     {
       title: 'HTML',
-      icon: faHtml5
+      icon: <FaHtml5 />
     },
     {
       title: 'CSS',
-      icon: faCss
+      icon: <FaCss3Alt />
     },
     {
       title: 'Typescript',
-      icon: faCss
+      icon: <SiTypescript />
     },
     {
       title: 'Redux',
-      icon: faCss
+      icon: <SiRedux />
     },
     {
-      title: 'Redis',
-      level: 60,
-      color: '#66ccff',
+      title: 'Jest',
+      icon: <SiJest />
     },
     {
       title: 'Scala',
-      level: 60,
-      color: '#66ccff',
+      icon: <SiScala />
     },
     {
       title: 'Cypress',
-      level: 60,
-      color: '#66ccff',
+      icon: <SiCypress />
     },
     {
       title: 'Git',
-      level: 85,
-      color: '#00e6b8',
+      icon: <LiaGit />
     },
     {
       title: 'Node JS',
-      level: 85,
-      color: '#00e6b8',
+      icon: <FaNodeJs />
     },
     {
       title: 'Express',
-      level: 85,
-      color: '#00e6b8',
+      icon: <SiExpress />
     },
     {
       title: 'Github',
-      level: 85,
-      color: '#66ccff',
+      icon: <FaGithub />
     },
     {
       title: 'Jira',
-      level: 90,
-      color: '#00e6b8',
+      icon: <SiJira />
     },
     {
       title: 'BitBucket',
-      level: 60,
-      color: '#66ccff',
+      icon: <FaBitbucket />
     },
     {
       title: 'Contentful',
-      level: 90,
-      color: '#00e6b8',
+      icon: <SiContentful />
     },
     {
       title: 'OracleDB',
-      level: 70,
-      color: '#66ccff',
+      icon: <GrOracle />
     },
     {
       title: 'Postgresql',
-      level: 90,
-      color: '#00e6b8',
+      icon: <BiLogoPostgresql />
     },
     {
       title: 'Figma',
-      level: 90,
-      color: '#00e6b8',
+      icon: <FaFigma />
     },
     {
       title: 'Postman',
-      level: 60,
-      color: '#66ccff',
+      icon: <SiPostman />
     },
     {
-      title: 'VS Code',
-      level: 60,
-      color: '#66ccff',
+      title: 'VS Code IDE',
+      icon: <VscVscode />
+    },
+    {
+      title: 'IntelliJ IDE',
+      icon: <SiIntellijidea />
+    },
+    {
+      title: 'Redis',
+      icon: <DiRedis />
+    },
+    {
+      title: 'Firebase',
+      icon: <SiFirebase />
+    },
+    {
+      title: 'Heroku',
+      icon: <GrHeroku />
     }
 
   ]
@@ -111,14 +117,12 @@ export const Skills = () => {
   return (
     <div className="tab-container">
       <div className='skillContainer'>
-        {skillsData.map(({ title, icon }) => {
+        {skillsData.map((key) => {
           return (
             <div className='skillCard'>
               <div className='techContainer'>
-                <FontAwesomeIcon icon={icon} />
-                <i className="devicon-devicon-plain-wordmark"></i>
-
-                <span>{title}</span>
+                {key.icon}
+                <span>{key.title}</span>
               </div>
             </div>
           )
