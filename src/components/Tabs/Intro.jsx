@@ -17,7 +17,7 @@ export const Intro = () =>{
         Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
         </p>
         <p>
-        My expertise spans in Frontend Development which includes React JS, Javscript, Typescript, ES6 and test driven development. I am familiar with backend technologies such as Node JS, Scala, Java and databases which include Oracle DB , PostgreSQL , firebase.
+        My expertise spans in Frontend Development which includes React JS, Javascript, Typescript, ES6 and test driven development. I am familiar with backend technologies such as Node JS, Scala, Java and databases which include Oracle DB , PostgreSQL , firebase.
         I am passionate about staying at the forefront of industry trends and delivering high-quality solutions that meet and exceed client expectations.
         </p>
         <p>My best assets are my creativity, my feeling with technology and my passion.
