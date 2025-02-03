@@ -2,6 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import downloadFile from '../assets/document/divyangi-mahajan.pdf'
 import { FaGithub, FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -19,6 +20,9 @@ const Header = props => (
             <a href="https://www.github.com/divyangi-mhjn" ><FaGithub size={17} style={{ verticalAlign: 'sub' }} aria-label="github" /></a>
           </li>
           <li>
+            <a href="https://x.com/MahajanInsights"> <FaXTwitter size={17} style={{ verticalAlign: 'sub' }} /></a>
+          </li>
+          <li>
             <a href="https://www.facebook.com/divyangi.mahajan"> <FaFacebookF size={17} style={{ verticalAlign: 'sub' }} /></a>
           </li>
         </ul>
@@ -33,7 +37,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            About Me
           </button>
         </li>
         <li style={{ display: 'flex', justifyContent: 'center' }}>
@@ -42,7 +46,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Experience
           </button>
         </li>
         <li style={{ display: 'flex', justifyContent: 'center' }}>
@@ -60,13 +64,13 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Reach Out
           </button>
         </li>
         <li>        
           <a href={downloadFile} style={{ display: 'flex', justifyContent: 'center' }} download>
           <button>
-              Download
+              Download PDF
               </button>
            </a>
            

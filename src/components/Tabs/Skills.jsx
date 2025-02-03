@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../assets/css/skillCards.css';
 import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub, FaBitbucket, FaFigma } from 'react-icons/fa';
-import { SiTypescript, SiRedux, SiScala, SiCypress, SiExpress, SiJira, SiContentful, SiPostman, SiIntellijidea, SiFirebase, SiJest } from "react-icons/si";
+import { SiTypescript, SiRedux, SiScala, SiCypress, SiExpress, SiJira, SiTestinglibrary, SiContentful, SiPostman, SiIntellijidea, SiFirebase, SiJest } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { LiaGit } from "react-icons/lia";
 import { GrOracle,GrHeroku } from "react-icons/gr";
@@ -38,6 +38,10 @@ export const Skills = () => {
     {
       title: 'Jest',
       icon: <SiJest />
+    },
+    {
+      title: 'RTL',
+      icon: <SiTestinglibrary />
     },
     {
       title: 'Scala',
