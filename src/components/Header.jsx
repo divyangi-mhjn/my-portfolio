@@ -21,10 +21,10 @@ const Header = props => (
             <a href="https://www.github.com/divyangi-mhjn" ><FaGithub size={17} style={{ verticalAlign: 'sub' }} aria-label="github" /></a>
           </li>
           <li title= {'medium.com/@MahajanInsights'}>
-            <a href="https://medium.com/@MahajanInsights" ><BsMedium size={17} style={{ verticalAlign: 'sub' }} aria-label="github" /></a>
+            <a href="https://medium.com/@divyangisays" ><BsMedium size={17} style={{ verticalAlign: 'sub' }} aria-label="github" /></a>
           </li>
           <li title={'x.com/MahajanInsights'}>
-            <a href="https://x.com/MahajanInsights"> <FaXTwitter size={17} style={{ verticalAlign: 'sub' }} /></a>
+            <a href="https://x.com/divyangisays"> <FaXTwitter size={17} style={{ verticalAlign: 'sub' }} /></a>
           </li>
           <li title={'facebook.com/divyangi.mahajan'}>
             <a href="https://www.facebook.com/divyangi.mahajan"> <FaFacebookF size={17} style={{ verticalAlign: 'sub' }} /></a>
