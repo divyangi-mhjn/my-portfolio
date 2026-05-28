@@ -13,14 +13,15 @@ export const Intro = () =>{
         <p>
           Hey There!
         </p><p> 
-        As a seasoned IT developer with 7 years of experience in crafting innovative software solutions, I possess a unique blend of technical expertise and industry insight. With a proven track record of delivering high-quality projects on time , I excel in leveraging cutting-edge technologies to drive business growth and improvement. 
-        Passionate, hardworking coder with penchant for developing customized interfaces that factor in unique demands for accessibility, reachability and security. Organized approach to meeting multiple, concurrent deadlines.
+        I’m a Frontend Engineer with 8+ years of experience building fast, scalable, and user-focused web applications using React and TypeScript. Over the years, I’ve worked across startups and enterprise teams, creating everything from interactive dashboards to large-scale SaaS platforms.
         </p>
         <p>
-        My expertise spans in Frontend Development which includes React JS, Javascript, Typescript, ES6 and test driven development. I am familiar with backend technologies such as Node JS, Scala, Java and databases which include Oracle DB , PostgreSQL , firebase.
-        I am passionate about staying at the forefront of industry trends and delivering high-quality solutions that meet and exceed client expectations.
+       What I enjoy most about frontend development is turning complex problems into clean, intuitive experiences. I care deeply about performance, accessibility, and writing maintainable code that not only works well today but continues to scale over time.
         </p>
-        <p>My best assets are my creativity, my feeling with technology and my passion.
+        <p>My best assets are my creativity, my feeling with technology and my passion.I’m someone who genuinely loves learning and exploring new technologies. Recently, I’ve been exploring how AI can enhance frontend experiences and developer workflows. I enjoy blending modern UI development with emerging AI capabilities to create smarter user experiences.
+          </p>
+          <p>
+            Beyond coding, I value collaboration, thoughtful problem-solving, and helping teams grow together. Whether it’s mentoring developers, improving workflows, or refining product experiences, I like contributing in ways that make both the product and the people around me better.
         Thank you for taking time to read and hope to connect with you soon!</p>
       </div>
     )
