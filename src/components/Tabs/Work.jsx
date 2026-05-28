@@ -6,9 +6,9 @@ export const Work = () =>{
         <h2 className="major">Work Experience</h2>
         
                   <div className="tab-container" style={{ display: 'grid', gridTemplateColumns: '3fr 2fr' }}>
-                    <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">LTMLimited (A Larsen & Toubro Group Company)</h3>
+                    <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">LTM Limited</h3>
         
-                      <span className="text-sm font-medium opacity-50" >Specialist-Software Engineering</span>
+                      <span className="text-sm font-medium opacity-50" >Specialist - Software Engineering</span>
         
                     </div>
                     <div style={{ paddingTop: '20px', display: 'flex', justifyContent: 'flex-end' }}>
@@ -22,7 +22,7 @@ export const Work = () =>{
                   <div className="tab-container" style={{ display: 'grid', gridTemplateColumns: '3fr 2fr' }}>
         
         
-                    <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">Tata Consultancy Services (A Tata Group Company)</h3>
+                    <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">Tata Consultancy Services</h3>
         
                       <span className="text-sm font-medium opacity-50" >System Engineer</span>
         
@@ -38,7 +38,7 @@ export const Work = () =>{
         
                   <div style={{ display: 'grid', gridTemplateColumns: '3fr 2fr' }}>
         
-                    <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">Skill Lotto Solutions Private Limited (A Sugal & Damani Group Company)</h3>
+                    <div style={{ paddingTop: '20px' }}> <h3 className="text-sm font-normal mb-1">Skill Lotto Solutions</h3>
         
                       <span className="text-sm font-medium opacity-50">Software Developer</span>
                     </div>
